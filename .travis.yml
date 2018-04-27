@@ -12,4 +12,4 @@ before_script:
   - cd build
   - cmake ..
  
-script: pwd && make && ls -ls
+script: pwd && make && raspberry-example
