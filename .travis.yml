@@ -3,3 +3,4 @@ install: true
 compiler:
   - clang
   - gcc
+script: cd example/ && ./configure && make && make test
