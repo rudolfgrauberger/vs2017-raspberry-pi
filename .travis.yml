@@ -1,6 +1,15 @@
 language: c
+
 install: true
+
 compiler:
   - clang
   - gcc
-script: cd example/ && ./configure && make && make test
+
+before_script:
+  - cd example
+  - mkdir build
+  - cd build
+  - cmake ..
+ 
+script: pwd && make && make test
