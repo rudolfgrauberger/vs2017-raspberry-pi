@@ -10,7 +10,7 @@ Wie man die beiden Umgebungen einrichten/anpassen muss, habe ich in meinem Blog-
 # Inbetriebnahme
 Dieses Projekt mit dem Befehl in der **Eingabeaufforderung**/**PowerShell** oder der **Git bash** auschecken.
 ```
-git glone https://github.com/rudolfgrauberger/vs2017-raspberry-pi.git
+git clone https://github.com/rudolfgrauberger/vs2017-raspberry-pi.git
 ```
 
 Anschließend habt ihr im aktuellen Verzeichnis einen Ordner der **vs2017-raspberry-pi** heißt.
