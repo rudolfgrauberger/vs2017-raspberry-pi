@@ -10,7 +10,7 @@ set(SOURCE
    ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
 )
 
-if(WIN32)
+if (NOT UNIX)
 # Diese Includes werden nur benötigt, damit Visual Studio das InstelliSense
 # generieren kann und keine InstelliSense-Fehler anzeigt
 include_directories(../raspbian-includes ../raspbian-includes/arm-linux-gnueabihf)
