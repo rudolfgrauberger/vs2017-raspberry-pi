@@ -14,5 +14,8 @@ int main() {
    printf("Version: %s\r\n", info.version);
    printf("Release: %s\r\n", info.release);
 
+   printf("Press a key to continue...");
+   getchar();
+
    return 0;
 }
